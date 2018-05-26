@@ -1,0 +1,697 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AD3169E20AE864600583766 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AD3169C20AE864600583766 /* Main.storyboard */; };
+		1AD316A020AE864700583766 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AD3169F20AE864700583766 /* Assets.xcassets */; };
+		1AD316A320AE864700583766 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AD316A120AE864700583766 /* LaunchScreen.storyboard */; };
+		1AD316C120AE957D00583766 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD316B720AE957D00583766 /* main.m */; };
+		1AD316C220AE957D00583766 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD316B820AE957D00583766 /* AppDelegate.m */; };
+		1AD316C620AE994900583766 /* DYHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD316C420AE994900583766 /* DYHomeViewController.m */; };
+		1AD316C720AE994900583766 /* DYHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AD316C520AE994900583766 /* DYHomeViewController.xib */; };
+		1AD316CB20AE996D00583766 /* DYOrderTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD316C920AE996D00583766 /* DYOrderTableViewController.m */; };
+		1AD316CC20AE996D00583766 /* DYOrderTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AD316CA20AE996D00583766 /* DYOrderTableViewController.xib */; };
+		1AD316D320AE99AE00583766 /* DYInfoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD316D120AE99AE00583766 /* DYInfoTableViewController.m */; };
+		1AD316D820AE99BF00583766 /* DYMeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD316D620AE99BF00583766 /* DYMeTableViewController.m */; };
+		1AD316E120AEAA5D00583766 /* DYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD316DF20AEAA5D00583766 /* DYTabBarController.m */; };
+		1AD316E620AEDB7000583766 /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD316E520AEDB7000583766 /* UIImage+Image.m */; };
+		1AD316E920AEF52600583766 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD316E820AEF52600583766 /* UIView+Frame.m */; };
+		1AD316ED20B1562D00583766 /* UIBarButtonItem+Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD316EC20B1562D00583766 /* UIBarButtonItem+Item.m */; };
+		1AD316F020B187D300583766 /* DYNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD316EF20B187D300583766 /* DYNavigationViewController.m */; };
+		1AD316F820B2941E00583766 /* DYAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD316F620B2941E00583766 /* DYAdViewController.m */; };
+		1AD316F920B2941E00583766 /* DYAdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AD316F720B2941E00583766 /* DYAdViewController.xib */; };
+		1AD3170C20B3EBEF00583766 /* DYMeTVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD3170A20B3EBEF00583766 /* DYMeTVCell.m */; };
+		1AD3170D20B3EBEF00583766 /* DYMeTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AD3170B20B3EBEF00583766 /* DYMeTVCell.xib */; };
+		1AD3171120B5079800583766 /* DYSetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD3170F20B5079800583766 /* DYSetViewController.m */; };
+		1AD3171220B5079800583766 /* DYSetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AD3171020B5079800583766 /* DYSetViewController.xib */; };
+		72D78D7D674C1A9DE5A73BE3 /* libPods-piaojiazi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 454BFD3EE740FC82DF6F0693 /* libPods-piaojiazi.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1AD3169320AE864500583766 /* piaojiazi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = piaojiazi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AD3169D20AE864600583766 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1AD3169F20AE864700583766 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1AD316A220AE864700583766 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1AD316A420AE864700583766 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AD316B620AE957D00583766 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1AD316B720AE957D00583766 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1AD316B820AE957D00583766 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1AD316C320AE994900583766 /* DYHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYHomeViewController.h; sourceTree = "<group>"; };
+		1AD316C420AE994900583766 /* DYHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYHomeViewController.m; sourceTree = "<group>"; };
+		1AD316C520AE994900583766 /* DYHomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DYHomeViewController.xib; sourceTree = "<group>"; };
+		1AD316C820AE996D00583766 /* DYOrderTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYOrderTableViewController.h; sourceTree = "<group>"; };
+		1AD316C920AE996D00583766 /* DYOrderTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYOrderTableViewController.m; sourceTree = "<group>"; };
+		1AD316CA20AE996D00583766 /* DYOrderTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DYOrderTableViewController.xib; sourceTree = "<group>"; };
+		1AD316D020AE99AE00583766 /* DYInfoTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYInfoTableViewController.h; sourceTree = "<group>"; };
+		1AD316D120AE99AE00583766 /* DYInfoTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYInfoTableViewController.m; sourceTree = "<group>"; };
+		1AD316D520AE99BF00583766 /* DYMeTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYMeTableViewController.h; sourceTree = "<group>"; };
+		1AD316D620AE99BF00583766 /* DYMeTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYMeTableViewController.m; sourceTree = "<group>"; };
+		1AD316DE20AEAA5D00583766 /* DYTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYTabBarController.h; sourceTree = "<group>"; };
+		1AD316DF20AEAA5D00583766 /* DYTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYTabBarController.m; sourceTree = "<group>"; };
+		1AD316E420AEDB7000583766 /* UIImage+Image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
+		1AD316E520AEDB7000583766 /* UIImage+Image.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
+		1AD316E720AEF52600583766 /* UIView+Frame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		1AD316E820AEF52600583766 /* UIView+Frame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		1AD316EA20B1485600583766 /* piaojiazi.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = piaojiazi.pch; sourceTree = "<group>"; };
+		1AD316EB20B1562D00583766 /* UIBarButtonItem+Item.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Item.h"; sourceTree = "<group>"; };
+		1AD316EC20B1562D00583766 /* UIBarButtonItem+Item.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Item.m"; sourceTree = "<group>"; };
+		1AD316EE20B187D300583766 /* DYNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYNavigationViewController.h; sourceTree = "<group>"; };
+		1AD316EF20B187D300583766 /* DYNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYNavigationViewController.m; sourceTree = "<group>"; };
+		1AD316F520B2941E00583766 /* DYAdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYAdViewController.h; sourceTree = "<group>"; };
+		1AD316F620B2941E00583766 /* DYAdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYAdViewController.m; sourceTree = "<group>"; };
+		1AD316F720B2941E00583766 /* DYAdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DYAdViewController.xib; sourceTree = "<group>"; };
+		1AD3170920B3EBEF00583766 /* DYMeTVCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYMeTVCell.h; sourceTree = "<group>"; };
+		1AD3170A20B3EBEF00583766 /* DYMeTVCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYMeTVCell.m; sourceTree = "<group>"; };
+		1AD3170B20B3EBEF00583766 /* DYMeTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DYMeTVCell.xib; sourceTree = "<group>"; };
+		1AD3170E20B5079800583766 /* DYSetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSetViewController.h; sourceTree = "<group>"; };
+		1AD3170F20B5079800583766 /* DYSetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSetViewController.m; sourceTree = "<group>"; };
+		1AD3171020B5079800583766 /* DYSetViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DYSetViewController.xib; sourceTree = "<group>"; };
+		2A595F8C4FCD281561E3917F /* Pods-piaojiazi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-piaojiazi.release.xcconfig"; path = "Pods/Target Support Files/Pods-piaojiazi/Pods-piaojiazi.release.xcconfig"; sourceTree = "<group>"; };
+		454BFD3EE740FC82DF6F0693 /* libPods-piaojiazi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-piaojiazi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7668D60D3F6C1B55F543D9F /* Pods-piaojiazi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-piaojiazi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-piaojiazi/Pods-piaojiazi.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AD3169020AE864500583766 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72D78D7D674C1A9DE5A73BE3 /* libPods-piaojiazi.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		131AADEAB6B3EC04DD1543AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A7668D60D3F6C1B55F543D9F /* Pods-piaojiazi.debug.xcconfig */,
+				2A595F8C4FCD281561E3917F /* Pods-piaojiazi.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1AD3168A20AE864500583766 = {
+			isa = PBXGroup;
+			children = (
+				1AD3169520AE864500583766 /* piaojiazi */,
+				1AD3169420AE864500583766 /* Products */,
+				131AADEAB6B3EC04DD1543AD /* Pods */,
+				6C3E05A1DEFBE6C3D4546F25 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1AD3169420AE864500583766 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AD3169320AE864500583766 /* piaojiazi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AD3169520AE864500583766 /* piaojiazi */ = {
+			isa = PBXGroup;
+			children = (
+				1AD316AC20AE957D00583766 /* Classes */,
+				1AD3169C20AE864600583766 /* Main.storyboard */,
+				1AD3169F20AE864700583766 /* Assets.xcassets */,
+				1AD316A120AE864700583766 /* LaunchScreen.storyboard */,
+				1AD316A420AE864700583766 /* Info.plist */,
+			);
+			path = piaojiazi;
+			sourceTree = "<group>";
+		};
+		1AD316AC20AE957D00583766 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1AD316F120B293AD00583766 /* AD */,
+				1AD316DA20AEAA2100583766 /* Main */,
+				1AD316B520AE957D00583766 /* Other */,
+				1AD316B120AE957D00583766 /* Home */,
+				1AD316AD20AE957D00583766 /* Order */,
+				1AD316B920AE957D00583766 /* Info */,
+				1AD316BD20AE957D00583766 /* Me */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		1AD316AD20AE957D00583766 /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				1AD316AE20AE957D00583766 /* Controller */,
+				1AD316AF20AE957D00583766 /* Model */,
+				1AD316B020AE957D00583766 /* View */,
+			);
+			path = Order;
+			sourceTree = "<group>";
+		};
+		1AD316AE20AE957D00583766 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1AD316C820AE996D00583766 /* DYOrderTableViewController.h */,
+				1AD316C920AE996D00583766 /* DYOrderTableViewController.m */,
+				1AD316CA20AE996D00583766 /* DYOrderTableViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1AD316AF20AE957D00583766 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1AD316B020AE957D00583766 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1AD316B120AE957D00583766 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1AD316B220AE957D00583766 /* Controller */,
+				1AD316B320AE957D00583766 /* Model */,
+				1AD316B420AE957D00583766 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1AD316B220AE957D00583766 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1AD316C320AE994900583766 /* DYHomeViewController.h */,
+				1AD316C420AE994900583766 /* DYHomeViewController.m */,
+				1AD316C520AE994900583766 /* DYHomeViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1AD316B320AE957D00583766 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1AD316B420AE957D00583766 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1AD316B520AE957D00583766 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				1AD316E320AEDB0000583766 /* Category */,
+				1AD316B620AE957D00583766 /* AppDelegate.h */,
+				1AD316B820AE957D00583766 /* AppDelegate.m */,
+				1AD316B720AE957D00583766 /* main.m */,
+				1AD316EA20B1485600583766 /* piaojiazi.pch */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		1AD316B920AE957D00583766 /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				1AD316BA20AE957D00583766 /* Controller */,
+				1AD316BB20AE957D00583766 /* Model */,
+				1AD316BC20AE957D00583766 /* View */,
+			);
+			path = Info;
+			sourceTree = "<group>";
+		};
+		1AD316BA20AE957D00583766 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1AD316D020AE99AE00583766 /* DYInfoTableViewController.h */,
+				1AD316D120AE99AE00583766 /* DYInfoTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1AD316BB20AE957D00583766 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1AD316BC20AE957D00583766 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1AD316BD20AE957D00583766 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				1AD316BE20AE957D00583766 /* Controller */,
+				1AD316BF20AE957D00583766 /* Model */,
+				1AD316C020AE957D00583766 /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		1AD316BE20AE957D00583766 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1AD316D520AE99BF00583766 /* DYMeTableViewController.h */,
+				1AD316D620AE99BF00583766 /* DYMeTableViewController.m */,
+				1AD3170E20B5079800583766 /* DYSetViewController.h */,
+				1AD3170F20B5079800583766 /* DYSetViewController.m */,
+				1AD3171020B5079800583766 /* DYSetViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1AD316BF20AE957D00583766 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1AD316C020AE957D00583766 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1AD3170920B3EBEF00583766 /* DYMeTVCell.h */,
+				1AD3170A20B3EBEF00583766 /* DYMeTVCell.m */,
+				1AD3170B20B3EBEF00583766 /* DYMeTVCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1AD316DA20AEAA2100583766 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				1AD316DB20AEAA2100583766 /* Controller */,
+				1AD316DC20AEAA2100583766 /* Model */,
+				1AD316DD20AEAA2100583766 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		1AD316DB20AEAA2100583766 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1AD316DE20AEAA5D00583766 /* DYTabBarController.h */,
+				1AD316DF20AEAA5D00583766 /* DYTabBarController.m */,
+				1AD316EE20B187D300583766 /* DYNavigationViewController.h */,
+				1AD316EF20B187D300583766 /* DYNavigationViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1AD316DC20AEAA2100583766 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1AD316DD20AEAA2100583766 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1AD316E320AEDB0000583766 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				1AD316E420AEDB7000583766 /* UIImage+Image.h */,
+				1AD316E520AEDB7000583766 /* UIImage+Image.m */,
+				1AD316E720AEF52600583766 /* UIView+Frame.h */,
+				1AD316E820AEF52600583766 /* UIView+Frame.m */,
+				1AD316EB20B1562D00583766 /* UIBarButtonItem+Item.h */,
+				1AD316EC20B1562D00583766 /* UIBarButtonItem+Item.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		1AD316F120B293AD00583766 /* AD */ = {
+			isa = PBXGroup;
+			children = (
+				1AD316F220B293AD00583766 /* Controller */,
+				1AD316F320B293AD00583766 /* Model */,
+				1AD316F420B293AD00583766 /* View */,
+			);
+			path = AD;
+			sourceTree = "<group>";
+		};
+		1AD316F220B293AD00583766 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1AD316F520B2941E00583766 /* DYAdViewController.h */,
+				1AD316F620B2941E00583766 /* DYAdViewController.m */,
+				1AD316F720B2941E00583766 /* DYAdViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1AD316F320B293AD00583766 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1AD316F420B293AD00583766 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6C3E05A1DEFBE6C3D4546F25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				454BFD3EE740FC82DF6F0693 /* libPods-piaojiazi.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AD3169220AE864500583766 /* piaojiazi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AD316A920AE864700583766 /* Build configuration list for PBXNativeTarget "piaojiazi" */;
+			buildPhases = (
+				EB59EFB0DE53C88761FB59F9 /* [CP] Check Pods Manifest.lock */,
+				1AD3168F20AE864500583766 /* Sources */,
+				1AD3169020AE864500583766 /* Frameworks */,
+				1AD3169120AE864500583766 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = piaojiazi;
+			productName = piaojiazi;
+			productReference = 1AD3169320AE864500583766 /* piaojiazi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AD3168B20AE864500583766 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DY;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = James;
+				TargetAttributes = {
+					1AD3169220AE864500583766 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 1AD3168E20AE864500583766 /* Build configuration list for PBXProject "piaojiazi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1AD3168A20AE864500583766;
+			productRefGroup = 1AD3169420AE864500583766 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AD3169220AE864500583766 /* piaojiazi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AD3169120AE864500583766 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AD3171220B5079800583766 /* DYSetViewController.xib in Resources */,
+				1AD3170D20B3EBEF00583766 /* DYMeTVCell.xib in Resources */,
+				1AD316A320AE864700583766 /* LaunchScreen.storyboard in Resources */,
+				1AD316F920B2941E00583766 /* DYAdViewController.xib in Resources */,
+				1AD316CC20AE996D00583766 /* DYOrderTableViewController.xib in Resources */,
+				1AD316A020AE864700583766 /* Assets.xcassets in Resources */,
+				1AD316C720AE994900583766 /* DYHomeViewController.xib in Resources */,
+				1AD3169E20AE864600583766 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EB59EFB0DE53C88761FB59F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-piaojiazi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AD3168F20AE864500583766 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AD3171120B5079800583766 /* DYSetViewController.m in Sources */,
+				1AD316D820AE99BF00583766 /* DYMeTableViewController.m in Sources */,
+				1AD316ED20B1562D00583766 /* UIBarButtonItem+Item.m in Sources */,
+				1AD316E620AEDB7000583766 /* UIImage+Image.m in Sources */,
+				1AD316C220AE957D00583766 /* AppDelegate.m in Sources */,
+				1AD316F820B2941E00583766 /* DYAdViewController.m in Sources */,
+				1AD316E920AEF52600583766 /* UIView+Frame.m in Sources */,
+				1AD316C120AE957D00583766 /* main.m in Sources */,
+				1AD316E120AEAA5D00583766 /* DYTabBarController.m in Sources */,
+				1AD316C620AE994900583766 /* DYHomeViewController.m in Sources */,
+				1AD3170C20B3EBEF00583766 /* DYMeTVCell.m in Sources */,
+				1AD316D320AE99AE00583766 /* DYInfoTableViewController.m in Sources */,
+				1AD316CB20AE996D00583766 /* DYOrderTableViewController.m in Sources */,
+				1AD316F020B187D300583766 /* DYNavigationViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1AD3169C20AE864600583766 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AD3169D20AE864600583766 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1AD316A120AE864700583766 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AD316A220AE864700583766 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1AD316A720AE864700583766 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1AD316A820AE864700583766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1AD316AA20AE864700583766 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7668D60D3F6C1B55F543D9F /* Pods-piaojiazi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = piaojiazi/Classes/Other/piaojiazi.pch;
+				INFOPLIST_FILE = piaojiazi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dayong.piaojiazi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1AD316AB20AE864700583766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A595F8C4FCD281561E3917F /* Pods-piaojiazi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = piaojiazi/Classes/Other/piaojiazi.pch;
+				INFOPLIST_FILE = piaojiazi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dayong.piaojiazi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AD3168E20AE864500583766 /* Build configuration list for PBXProject "piaojiazi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AD316A720AE864700583766 /* Debug */,
+				1AD316A820AE864700583766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AD316A920AE864700583766 /* Build configuration list for PBXNativeTarget "piaojiazi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AD316AA20AE864700583766 /* Debug */,
+				1AD316AB20AE864700583766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AD3168B20AE864500583766 /* Project object */;
+}
